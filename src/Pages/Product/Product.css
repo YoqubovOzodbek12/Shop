@@ -1,0 +1,148 @@
+.product-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 44px;
+}
+
+.product-title {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 56px;
+    margin-bottom: 32px;
+}
+
+.product-item {
+    position: relative;
+    background: var(--Color-Light-BG, #F4F5F7);
+    margin-top: 32px;
+    z-index: 9;
+}
+
+
+/* Card button */
+
+.card {
+    position: absolute;
+    top: 38%;
+    left: 42px;
+    display: none;
+}
+
+.card-btn {
+    position: relative;
+    border: none;
+    background: transparent;
+    color: var(--Primary, #B88E2F);
+    background-color: #F4F5F7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 12px 59px;
+}
+
+.card-box {
+    position: absolute;
+    display: flex;
+}
+
+.card-text {
+    color: #fff;
+    padding-left: 38px;
+    padding-top: 15px;
+}
+
+.card-text:nth-child(1) {
+    padding-left: 0px;
+}
+
+/* Card button */
+
+.product-card-text:nth-child(1) {
+    padding-left: 0px;
+}
+
+.product-img {
+    width: 285px;
+    height: 301px;
+}
+
+.product-item-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    padding: 16px 146px 0px 16px;
+}
+
+.product-desc {
+    color: var(--Color-Gray-3, #898989);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 10px 131px 0px 16px;
+}
+
+.product-innen {
+    display: flex;
+    align-items: center;
+}
+
+.product-price {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+
+.product-skidka {
+    color: var(--Color-Gray-4, #B0B0B0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+/* Hover */
+
+
+.product-item:hover .card{
+    display: block;
+}
+
+
+.product-item:hover {
+    opacity: 0.5;
+    background-color: #000000af;
+    transition: 350ms all;
+}
+
+/* Hover */
+
+
+
+@media (max-width: 1200px) {
+    .product-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
