@@ -18,13 +18,13 @@ const Header = () => {
                         <Link className='header-link' to='home'>Home</Link>
                     </li>
                     <li className='header-item'>
+                        <Link className='header-link' to='shop'>Shop</Link>
+                    </li>
+                    <li className='header-item'>
                         <Link className='header-link' to='about'>About</Link>
                     </li>
                     <li className='header-item'>
-                        <Link className='header-link' to='contack'>Contack</Link>
-                    </li>
-                    <li className='header-item'>
-                        <Link className='header-link' to='shop'>Shop</Link>
+                        <Link className='header-link' to='contack'>Contact</Link>
                     </li>
                 </ul>
                 <div className='header-icon'>
