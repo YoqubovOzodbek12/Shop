@@ -233,7 +233,7 @@
 .frame-text {
     color: var(--Color-Gray-3, #898989);
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
@@ -255,6 +255,20 @@
 }
 
 @media (max-width: 902px) {
+    .frame-free {
+        display: flex;
+    }
+}
+
+
+@media (max-width: 399px) {
+    .frame-inner {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 100px 20px;
+    }
     .frame-free {
         display: flex;
     }

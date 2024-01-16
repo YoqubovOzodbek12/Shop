@@ -7,6 +7,7 @@ import Contack from './Pages/Contact/Coutact'
 import Blog from './Pages/Blog/Blog'
 import Shop from './Pages/Shop/Shop'
 import Home from "./Pages/Home/Home";
+import Card from "./Pages/Cart/Cart";
 
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/blog" element={<Blog/>}/>
           <Route path="/contack" element={<Contack/>}/>
           <Route path="/Shop" element={<Shop/>}/>
+          <Route path="/Card" element={<Card/>}/>
         </Routes>
       </BrowserRouter>
     

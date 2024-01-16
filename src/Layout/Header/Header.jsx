@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../../Img/logo/Frame 168.svg'
 import ContackIcon from '../../Img/headerIcon/mdi_account-alert-outline.svg'
@@ -9,11 +9,14 @@ import LikeIcon from '../../Img/headerIcon/akar-icons_heart.svg'
 import './Header.css'
 
 const Header = () => {
+
+    const [isOpen , setOpen] = useState(false)
+
     return (
         <div className='container'>
-            <div className='header'>
+            <div className='header' >
                 <img className='header-logo' src={Logo} alt="site logo" />
-                <ul className='header-list'>
+                <ul className={`header-list ${isOpen ? "header-list-active" : ""}`}>
                     <li className='header-item'>
                         <Link className='header-link' to='home'>Home</Link>
                     </li>
@@ -27,13 +30,13 @@ const Header = () => {
                         <Link className='header-link' to='contack'>Contact</Link>
                     </li>
                 </ul>
-                <div className='header-icon'>
+                <div className='header-icon header-icon-active'>
                     <button className='icon-btn'><img src={ContackIcon} alt="" /></button>
                     <button className='icon-btn'><img src={SearchIcon} alt="" /></button>
                     <button className='icon-btn'><img src={LikeIcon} alt="" /></button>
                     <button className='icon-btn'><img src={KorzinkaIcon} alt="" /></button>
                 </div>
-                <div className='header-burger'>
+                <div className='header-burger' onClick={() => setOpen(!isOpen)}>
                     <span className='burger-line'></span>
                     <span className='burger-line'></span>
                     <span className='burger-line'></span>

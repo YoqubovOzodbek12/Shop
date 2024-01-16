@@ -202,7 +202,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                <hr />
+                    <hr />
                 </section>
 
                 <section>
@@ -218,3 +218,6 @@ const Home = () => {
 
 
 export default Home
+
+
+

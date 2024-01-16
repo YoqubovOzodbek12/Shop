@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import ShopCardFour from '../Product/ShopCardFour'
 import Footer from '../../Layout/Footer/Footer'
@@ -80,7 +81,7 @@ const About = () => {
 
                                 <div className='sofa-btns'>
                                     <button className='sofa-count'> 1</button>
-                                    <button className='sofa-add'>Add To Cart</button>
+                                    <button className='sofa-add'><Link to='card'>Card</Link></button>
                                     <button className='sofa-compare'>+ Compare</button>
                                 </div>
 

@@ -35,7 +35,7 @@ const Footer = () => {
                             <li className="rigth-list">
                                 <h4 className="rigth-title">Newsletter</h4>
                                 <div className="rigth-address">
-                                    <input className="address-inp" type="text" placeholder="Enter Your Email Address"/>
+                                    <input className="address-inp" type="text" placeholder="Enter Your Email"/>
                                     <button className="address-btn">SUBSCRIBE</button>
                                 </div>
                             </li>
