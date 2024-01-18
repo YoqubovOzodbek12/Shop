@@ -75,7 +75,7 @@
 
 
 
-@media only screen and (max-width:900px) {
+@media (max-width:900px) {
 
     .header {
         position: relative;
@@ -120,25 +120,27 @@
         position: fixed;
         width: 50%;
         height: 100vh;
-        background-color: red;
+        background-color: rgb(16, 214, 129);
         color: #000;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
         display: block;
-        top: 0;
+        top: 119px;
         right: 0;
+        z-index: 999999;
     }
 }
 
 
-@media only screen and (max-width:550px) {
+@media(max-width:550px) {
 
     .header {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
     }
 
     .header-icon {
@@ -157,18 +159,18 @@
     }
 
     .header-list-active {
-        position: absolute;
+        position: fixed;
         width: 50%;
         height: 100vh;
-        background-color: red;
+        background-color: blue;
         color: #000;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
         display: block;
-        top: 40px;
-        right: -20px;
+        top: 0;
+        right: 0;
     }
 
     .header-icon-active {

@@ -60,6 +60,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 72px;
 }
 
 .korzinka-header {
@@ -210,4 +211,76 @@
     border-radius: 15px;
     border: 1px solid #000;
     padding: 14px 58px;
+}
+
+@media (max-width:760px) {
+    .korzinka-header {
+        width: 500px;
+        display: flex;
+        background-color: #F9F1E7;
+        padding: 17px;
+        justify-content: space-around;
+    }
+
+    .korzinka-totals {
+        margin-top: 40px;
+    }
+
+
+.totals-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px 80px 61px 80px;
+}
+}
+
+@media (max-width:500px) {
+    .korzinka-header {
+        width: 350px;
+        display: flex;
+        background-color: #F9F1E7;
+        padding: 17px;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+
+    .korzinka-item {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .korzinka-totals {
+        margin-top: 40px;
+    }
+
+
+.totals-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px 70px 61px 70px;
+}
+
+.totals-subtotal {
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.totals-total {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 42px;
+    padding-left: 40px;
+}
 }

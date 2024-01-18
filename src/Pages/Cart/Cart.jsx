@@ -1,4 +1,6 @@
 import React from 'react'
+import Footer from '../../Layout/Footer/Footer';
+import FrameC from '../../Components/FrameC'
 import { MdDelete } from "react-icons/md";
 import './Cart.css'
 
@@ -10,7 +12,7 @@ const Cart = () => {
                 <section className='cart'>
                     <div className='container'>
                         <div className='cart-inner'>
-                            <h2 className='cart-title'>Shop</h2>
+                            <h2 className='cart-title'>Card</h2>
                             <div className='cart-box'>
                                 <p className='cart-desc'>Home</p>
                                 <p className='cart-text'>Checkout</p>
@@ -84,7 +86,17 @@ const Cart = () => {
                         </div>
                     </div>
                 </section>
+
+
+                <section>
+                    <FrameC/>
+                    <hr />
+                </section>
             </main>
+
+            <div className='container'>
+                <Footer />
+            </div>
         </div>
     )
 }

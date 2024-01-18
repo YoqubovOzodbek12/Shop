@@ -8,6 +8,7 @@ import Blog from './Pages/Blog/Blog'
 import Shop from './Pages/Shop/Shop'
 import Home from "./Pages/Home/Home";
 import Card from "./Pages/Cart/Cart";
+import Checkout from "./Pages/Checkout/Checkout";
 
 
 
@@ -21,8 +22,9 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/blog" element={<Blog/>}/>
           <Route path="/contack" element={<Contack/>}/>
-          <Route path="/Shop" element={<Shop/>}/>
-          <Route path="/Card" element={<Card/>}/>
+          <Route path="/shop" element={<Shop/>}/>
+          <Route path="/card" element={<Card/>}/>
+          <Route path="/checkout" element={<Checkout/>}/>
         </Routes>
       </BrowserRouter>
     

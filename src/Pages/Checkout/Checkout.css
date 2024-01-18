@@ -1,0 +1,442 @@
+.checkout {
+    width: 100vw;
+    background-image: url('../../Img/shopimg/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.checkout-box {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.checkout-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.checkout-inner {
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-text {
+    position: relative;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.checkout-desc {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 42px;
+}
+
+
+.checkout-text::after {
+    position: absolute;
+    content: url('../../Img/shopimg/Vector.svg');
+    top: 2px;
+    left: 65px;
+}
+
+
+.billing-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+.billing-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 36px;
+}
+
+.billing-text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.billing-inputone {
+    border: none;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    width: 211px;
+    height: 75px;
+    margin-right: 31px;
+}
+
+.form-box {
+    display: flex;
+    margin-bottom: 36px;
+}
+
+.belling-text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.belling-input {
+    border: none;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    width: 453px;
+    height: 75px;
+    flex-shrink: 0;
+    margin-bottom: 36px;
+    margin-top: 22px;
+}
+
+.belling-select {
+    border: none;
+    appearance: none;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    width: 453px;
+    height: 75px;
+    flex-shrink: 0;
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 30px;
+    margin-bottom: 36px;
+    margin-top: 22px;
+}
+
+/*  */
+
+
+.billing-boxtwo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 550px;
+    min-width: 300px;
+}
+
+.billing-rigth-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 14px;
+}
+
+.billing-rigth-titletwo {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 14px;
+    padding-left: 100px;
+}
+
+.billing-rigth-text {
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 22px;
+}
+
+
+
+
+.billing-rigth-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.billing-rigth-price {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 22px;
+    padding-left: 100px;
+
+}
+
+.billing-rigth-all {
+    color: var(--Primary, #B88E2F);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 35px;
+}
+
+.billing-direct {
+    position: relative;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 40px;
+}
+
+.billing-direct::before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000;
+    left: 10px;
+    top: 4px;
+}
+
+.billing-des {
+    color: #9F9F9F;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 10px;
+    padding-right: 20px;
+    max-width: 550px;
+    min-width: 300px;
+}
+
+.billing-one {
+    position: relative;
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+.billing-one::before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #9F9F9F;
+    top: 32px;
+    left: 10px;
+}
+
+
+
+.billing-two {
+    position: relative;
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+.billing-two::before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #9F9F9F;
+    top: 29px;
+    left: 10px;
+}
+
+.billing-policy {
+    max-width: 550px;
+    min-width: 300px;
+    padding-top: 25px;
+    color: #000;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.billing-btns {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.billing-btn {
+    border: none;
+    background: transparent;
+    border-radius: 15px;
+    border: 1px solid #000;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 39px;
+    text-align: center;
+    padding: 17px 100px;
+}
+
+
+@media (max-width:867px) {
+    .billing-box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .billing-inputone {
+        border: none;
+        background: transparent;
+        border-radius: 10px;
+        border: 1px solid #9F9F9F;
+        background: #FFF;
+        width: 211px;
+        height: 75px;
+        margin-right: 31px;
+    }
+
+    .billing-inprigth {
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:490px) {
+
+
+
+    .billing-box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .billing-inputone {
+        border: none;
+        background: transparent;
+        border-radius: 10px;
+        border: 1px solid #9F9F9F;
+        background: #FFF;
+        width: 160px;
+        height: 75px;
+        margin-right: 31px;
+        text-align: center;
+    }
+
+    .belling-input {
+        border: none;
+        background: transparent;
+        border-radius: 10px;
+        border: 1px solid #9F9F9F;
+        background: #FFF;
+        width: 320px;
+        height: 75px;
+        flex-shrink: 0;
+        margin-bottom: 36px;
+        margin-top: 22px;
+    }
+
+    .belling-select {
+        border: none;
+        appearance: none;
+        background: transparent;
+        border-radius: 10px;
+        border: 1px solid #9F9F9F;
+        background: #FFF;
+        width: 320px;
+        height: 75px;
+        flex-shrink: 0;
+        color: #9F9F9F;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 30px;
+        margin-bottom: 36px;
+        margin-top: 22px;
+    }
+
+    .billing-inputone {
+        border: none;
+        background: transparent;
+        border-radius: 10px;
+        border: 1px solid #9F9F9F;
+        background: #FFF;
+        width: 160px;
+        height: 75px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+
+    .form-box {
+        display: flex;
+        margin-bottom: 36px;
+        text-align: center;
+    }
+}
