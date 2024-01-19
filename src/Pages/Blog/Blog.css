@@ -1,0 +1,230 @@
+.blog {
+    width: 100vw;
+    background-image: url('../../Img/shopimg/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.blog-box {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.blog-inner {
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.blog-text {
+    position: relative;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.blog-desc {
+    padding-left: 40px;
+}
+
+
+.blog-text::after {
+    position: absolute;
+    content: url('../../Img/shopimg/Vector.svg');
+    top: 2px;
+    left: 60px;
+}
+
+.categoriya-inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 106px;
+    padding-bottom: 54px;
+}
+
+.categoriya-img {
+    width: 800px;
+    height: 500px;
+}
+
+.categoriya-left-inner {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.categoriy-icon {
+    margin-left: 44px;
+}
+
+.categoriy-icon:nth-child(1) {
+    margin-left: 0px;
+}
+
+.categoriy-text {
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 11px;
+}
+
+.categoriy-design {
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.categoriy-texts {
+    max-width: 800px;
+    min-width: 350ox;
+    color: #9F9F9F;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-right: 235px;
+    padding: 16px 0px;
+}
+
+.categoriy-more {
+    position: relative;
+    color: #000;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+    padding-bottom: 66px;
+}
+
+.categoriy-more::before {
+    position: absolute;
+    content: '';
+    width: 77px;
+    height: 2px;
+    background-color: #9F9F9F;
+    bottom: 55px;
+    left: 5px;
+}
+
+.categoriya-inp-box {
+    position: relative;
+}
+
+
+.categoriya-inp-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 262px;
+    right: 110px;
+    top: 11px;
+}
+
+.categoriya-inp {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    padding: 10px 61px;
+    margin-left: 30px;
+}
+
+
+.categoriya-catitle {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 43px 0px 33px 50px;
+}
+
+.categoriya-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.categoriya-list-text {
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 41px;
+}
+
+.categoriya-post {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 118px 60px 26px 70px;
+}
+
+.post-img {
+    width: 75px;
+    height: 75px;
+}
+
+.post-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 65px;
+    padding-bottom: 39px;
+}
+
+.post-box {
+    padding-left: 10px;
+}
+
+
+@media (max-width: 930px) {
+    .categoriya-inner {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 106px;
+        padding-bottom: 54px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .categoriy-icon {
+        margin-left: 25px;
+    } 
+
+    .categoriya-img {
+        height: 400px;
+    }
+    
+}

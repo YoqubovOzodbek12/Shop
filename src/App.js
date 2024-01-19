@@ -9,6 +9,7 @@ import Shop from './Pages/Shop/Shop'
 import Home from "./Pages/Home/Home";
 import Card from "./Pages/Cart/Cart";
 import Checkout from "./Pages/Checkout/Checkout";
+import Comparison from './Pages/Comparison/Comparison'
 
 
 
@@ -25,6 +26,8 @@ function App() {
           <Route path="/shop" element={<Shop/>}/>
           <Route path="/card" element={<Card/>}/>
           <Route path="/checkout" element={<Checkout/>}/>
+          <Route path="/blog" element={<Blog/>}/>
+          <Route path="/comparison" element={<Comparison/>}/>
         </Routes>
       </BrowserRouter>
     

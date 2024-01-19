@@ -28,7 +28,7 @@ const About = () => {
                     <div className='container'>
                         <div className='sofa'>
                             <div className='sofa-left'>
-                                <div className='sofa-imgs dis-blok'>
+                                <div className='sofa-imgs'>
                                     <img className='sofa-img' src={require('../../Img/aboutimg/1.png')} alt="" />
                                     <img className='sofa-img' src={require('../../Img/aboutimg/1.png')} alt="" />
                                     <img className='sofa-img' src={require('../../Img/aboutimg/1.png')} alt="" />
@@ -39,7 +39,7 @@ const About = () => {
                                     <img className='sofa-big-img' src={require('../../Img/aboutimg/2.png')} alt="" />
                                 </div>
 
-                                <div className='sofa-imgs dis-none'>
+                                <div className='sofa-imgs bl'>
                                     <img className='sofa-img' src={require('../../Img/aboutimg/1.png')} alt="" />
                                     <img className='sofa-img' src={require('../../Img/aboutimg/1.png')} alt="" />
                                     <img className='sofa-img' src={require('../../Img/aboutimg/1.png')} alt="" />
@@ -100,9 +100,11 @@ const About = () => {
                                         <p className='networks-desc'>SS001</p>
                                         <p className='networks-desc'>Sofas</p>
                                         <p className='networks-desc'>Sofa, Chair, Home, Shop</p>
-                                        <FaFacebook />
+                                       <div className='networks-rigth-icon'>
+                                       <FaFacebook />
                                         <FaFacebook className='networks-facebook' />
                                         <FaFacebook />
+                                       </div>
                                     </div>
                                 </div>
                             </div>

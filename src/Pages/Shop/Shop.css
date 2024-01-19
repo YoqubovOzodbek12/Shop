@@ -38,6 +38,7 @@
     line-height: normal;
 }
 
+
 .shop-desc::after {
     position: absolute;
     content: url('../../Img/shopimg/Vector.svg');
