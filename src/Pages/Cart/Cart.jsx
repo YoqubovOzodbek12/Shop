@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Footer from '../../Layout/Footer/Footer';
 import FrameC from '../../Components/FrameC'
 import { MdDelete } from "react-icons/md";
@@ -80,7 +81,9 @@ const Cart = () => {
                                     <p className='totals-ptice-golt'>Rs. 250,000.00</p>
                                 </div>
                                 <div className='totals-btns'>
-                                    <button className='totals-btn'>Check Out</button>
+                                   <Link to='/checkout'>
+                                   <button className='totals-btn'>Check Out</button>
+                                   </Link>
                                 </div>
                             </div>
                         </div>

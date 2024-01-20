@@ -60,6 +60,18 @@
     padding: 25px 72px;
     font-size: 16px;
     font-weight: 700;
+    border: 2px solid ;
+    text-transform: uppercase;
+}
+
+.hero-btn:hover {
+    border: none;
+    background-color: #fff;
+    color: #B88E2F;
+    border: 2px solid #B88E2F;
+    padding: 25px 72px;
+    font-size: 16px;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -346,7 +358,20 @@
     font-style: normal;
     font-weight: 600;
     border: 1px solid var(--Primary, #B88E2F);
+    border: 2px solid;
     background: #FFF;
+    margin-bottom: 81px;
+    padding: 12px 72px;
+}
+
+.more-btns:hover {
+    color: var(--Primary, #fff);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    border: 1px solid var(--Primary, #fff);
+    background: #B88E2F;
     margin-bottom: 81px;
     padding: 12px 72px;
 }

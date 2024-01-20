@@ -81,7 +81,7 @@ const About = () => {
 
                                 <div className='sofa-btns'>
                                     <button className='sofa-count'> 1</button>
-                                    <button className='sofa-add'><Link to='card'>Card</Link></button>
+                                    <button className='sofa-add'><Link to='/card'>Card</Link></button>
                                     <button className='sofa-compare'>+ Compare</button>
                                 </div>
 
