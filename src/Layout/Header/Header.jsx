@@ -79,9 +79,9 @@ const Header = () => {
                     </div>
                     <hr />
                     <div className='shopping-btns'>
-                        <button className='shopping-cart'>Cart</button>
-                        <button className='shopping-checkout'>Checkout</button>
-                        <button className='shopping-comparison'>Comparison</button>
+                        <Link to='/card'><button className='shopping-cart'>Cart</button></Link>
+                        <Link to='/checkout'><button className='shopping-checkout'>Checkout</button></Link>
+                        <Link to='/comparison'><button className='shopping-comparison'>Comparison</button></Link>
                     </div>
                 </div>
             </div>
