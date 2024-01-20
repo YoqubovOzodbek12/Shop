@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { GoArrowRight } from "react-icons/go";
 import { GoArrowLeft } from "react-icons/go";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import Product from '../Product/Product'
 import Footer from '../../Layout/Footer/Footer';
 import './Home.css'
@@ -19,6 +21,11 @@ const Home = () => {
     const prevSlide = () => {
         setTransform(transform + 900)
     }
+
+    useEffect(() => {
+        Aos.init()
+    },[])
+
     return (
         <div>
             <div className='hero'>
@@ -48,19 +55,19 @@ const Home = () => {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
                             </p>
                             <ul className='browse-list'>
-                                <li className='browse-item'>
+                                <li data-aos="flip-up" className='browse-item'>
                                     <img className='browse-img' src={BrowseOne} alt="" />
                                     <p className='browse-text'>
                                         Dining
                                     </p>
                                 </li>
-                                <li className='browse-item'>
+                                <li data-aos="flip-up" className='browse-item'>
                                     <img className='browse-img' src={BrowseTwo} alt="" />
                                     <p className='browse-text'>
                                         Dining
                                     </p>
                                 </li>
-                                <li className='browse-item'>
+                                <li data-aos="flip-up" className='browse-item'>
                                     <img className='browse-img' src={BrowseTree} alt="" />
                                     <p className='browse-text'>
                                         Dining

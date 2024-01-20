@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import './Product.css'
 
 
 const ShopCardFour = () => {
+
+    useEffect(() => {
+        Aos.init()
+    },[])
+
     return (
         <div>
             <div className="container">
             <ul className='product-list'>
-                    <li className='product-item'>
+                    <li data-aos="flip-up" className='product-item'>
                         <img className='product-img' src={require('../../Img/cartimg/1.png')} alt="" />
                         <div className='card'>
                             <button className='card-btn'>Add top card</button>
@@ -27,7 +34,7 @@ const ShopCardFour = () => {
                         </div>
                     </li>
 
-                    <li className='product-item'>
+                    <li data-aos="flip-up" className='product-item'>
                         <img className='product-img' src={require('../../Img/cartimg/3.png')} alt="" />
                         <div className='card'>
                             <button className='card-btn'>Add top card</button>
@@ -47,7 +54,7 @@ const ShopCardFour = () => {
                     </li>
 
 
-                    <li className='product-item'>
+                    <li data-aos="flip-up" className='product-item'>
                         <img className='product-img' src={require('../../Img/cartimg/3.png')} alt="" />
                         <div className='card'>
                             <button className='card-btn'>Add top card</button>
@@ -66,7 +73,7 @@ const ShopCardFour = () => {
                         </div>
                     </li>
 
-                    <li className='product-item'>
+                    <li data-aos="flip-up" className='product-item'>
                         <img className='product-img' src={require('../../Img/cartimg/3.png')} alt="" />
                         <div className='card'>
                             <button className='card-btn'>Add top card</button>

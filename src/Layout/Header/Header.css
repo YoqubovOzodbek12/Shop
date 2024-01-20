@@ -210,7 +210,7 @@
     top: 85px;
     background-color: #FFF;
     right: 0;
-    z-index: 9999999;
+    z-index: 99999;
 }
 
 @media(max-width:500px) {
@@ -314,7 +314,7 @@
         position: fixed;
         width: 50%;
         height: 100vh;
-        background-color: rgba(146, 154, 150, 0.72);
+        background-color: rgba(186, 200, 193, 0.98);
         color: #000;
         font-size: 16px;
         font-style: normal;
@@ -353,7 +353,7 @@
         position: fixed;
         width: 50%;
         height: 100vh;
-        background-color: rgba(146, 154, 150, 0.72);
+        background-color: rgba(186, 200, 193, 0.98);
         color: #000;
         font-size: 16px;
         font-style: normal;

@@ -60,7 +60,7 @@
     padding: 25px 72px;
     font-size: 16px;
     font-weight: 700;
-    border: 2px solid ;
+    border: 2px solid;
     text-transform: uppercase;
 }
 
@@ -578,7 +578,7 @@
         height: 306px;
         margin-top: 32px;
     }
-    
+
     .funiro-ten {
         width: 246px;
         height: 191px;

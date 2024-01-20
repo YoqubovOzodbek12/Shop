@@ -1,12 +1,20 @@
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import './Product.css'
 
 const Product = () => {
+
+    useEffect(() => {
+        Aos.init()
+    },[])
+
     return (
         <div>
             <div className='product'>
                 <h3 className='product-title'>Our Products</h3>
                 <ul className='product-list'>
-                    <li className='product-item'>
+                    <li data-aos="flip-right" className='product-item'>
                         <img className='product-img' src={require('../../Img/cartimg/1.png')} alt="" />
                         <div className='card'>
                             <button className='card-btn'>Add top card</button>
@@ -27,7 +35,7 @@ const Product = () => {
                     </li>
 
 
-                    <li className='product-item'>
+                    <li data-aos="flip-right" className='product-item'>
                         <img className='product-img' src={require('../../Img/cartimg/2.png')} alt="" />
                         <div className='card'>
                             <button className='card-btn'>Add top card</button>
@@ -46,7 +54,7 @@ const Product = () => {
                         </div>
                     </li>
 
-                    <li className='product-item'>
+                    <li data-aos="flip-right" className='product-item'>
                         <img className='product-img' src={require('../../Img/cartimg/3.png')} alt="" />
                         <div className='card'>
                             <button className='card-btn'>Add top card</button>
@@ -65,7 +73,7 @@ const Product = () => {
                         </div>
                     </li>
 
-                    <li className='product-item'>
+                    <li data-aos="flip-right" className='product-item'>
                         <img className='product-img' src={require('../../Img/cartimg/4.png')} alt="" />
                         <div className='card'>
                             <button className='card-btn'>Add top card</button>
@@ -84,7 +92,7 @@ const Product = () => {
                         </div>
                     </li>
 
-                    <li className='product-item'>
+                    <li data-aos="flip-right" className='product-item'>
                         <img className='product-img' src={require('../../Img/cartimg/5.png')} alt="" />
                         <div className='card'>
                             <button className='card-btn'>Add top card</button>
@@ -103,7 +111,7 @@ const Product = () => {
                         </div>
                     </li>
 
-                    <li className='product-item'>
+                    <li data-aos="flip-right" className='product-item'>
                         <img className='product-img' src={require('../../Img/cartimg/5.png')} alt="" />
                         <div className='card'>
                             <button className='card-btn'>Add top card</button>
@@ -122,7 +130,7 @@ const Product = () => {
                         </div>
                     </li>
 
-                    <li className='product-item'>
+                    <li data-aos="flip-right" className='product-item'>
                         <img className='product-img' src={require('../../Img/cartimg/5.png')} alt="" />
                         <div className='card'>
                             <button className='card-btn'>Add top card</button>
@@ -140,7 +148,7 @@ const Product = () => {
                             <p className='product-price'>Rp 2.500.000</p>
                         </div>
                     </li>
-                    <li className='product-item'>
+                    <li data-aos="flip-right" className='product-item'>
                         <img className='product-img' src={require('../../Img/cartimg/5.png')} alt="" />
                         <div className='card'>
                             <button className='card-btn'>Add top card</button>
